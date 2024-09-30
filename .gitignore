@@ -32,3 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 app/node_modules/.bin/acorn
+/app/node_modules
