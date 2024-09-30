@@ -1,5 +1,5 @@
 package com.example.iwjavaspringhtmx.model;
-
+// ToDOItem
 public class TodoItem {
   private boolean completed;
   private String description;
