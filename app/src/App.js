@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [todos, setTodos] = useState([]);
 
-  // Fetching todos on component mount (startup)
+  // Fetching todos on component mount
   useEffect(() => {
     fetch('http://localhost:8080/todos')
         .then(response => response.json())
